@@ -1,29 +1,83 @@
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
+.cf::after {
+  /* content: ""; */
+  /* display: table; */
+  /* clear: both; */
+}
 body {
-  background-image: url(../img/cork-board.jpg);
+  background: url(../img/world-map.png) no-repeat;
+  height: 100%;
 }
-
-div.polaroid {
+.container {
   display: inline-block;
   position: relative;
-  width: 750px;
+  width: 1875px;
+  height: 1000px;
 }
 
-img.picture {
+.fox {
   position: absolute;
-  left: 15%;
-  z-index: -1;
-  width: 89%;
-  top: 9%;
+  top: 5%;
+  left: 32%;
 }
 
-img.frame {/* position: absolute; */}
-
-img.pin {
+.quokka {
   position: absolute;
-  top: -1%;
+}
+.red-panda {
+  position: absolute;
+}
+
+.seal {
+  position: absolute;
+}
+
+.wombat {
+  position: absolute;
+}
+
+.wren {
+  position: absolute;
+}
+
+.otter {
+  position: absolute;
+}
+
+
+.quokka {
+  position: absolute;
+  bottom: 2%;
+  right: 14%;
+}
+.red-panda {
+  position: absolute;
+  top: 5%;
+  left: 76%;
+}
+
+.seal {
+  position: absolute;
+  bottom: -28px;
+  left: 38%;
+}
+
+.wombat {
+  position: absolute;
+  bottom: 3%;
+  right: -2%;
+}
+
+.wren {
+  position: absolute;
+  left: 18%;
+  top: 30%;
+}
+
+.otter {
+  position: absolute;
+  top: 39%;
+  left: 3%;
 }
