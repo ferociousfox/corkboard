@@ -1,0 +1,29 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/cork-board.jpg);
+}
+
+div.polaroid {
+  display: inline-block;
+  position: relative;
+  width: 750px;
+}
+
+img.picture {
+  position: absolute;
+  left: 15%;
+  z-index: -1;
+  width: 89%;
+  top: 9%;
+}
+
+img.frame {/* position: absolute; */}
+
+img.pin {
+  position: absolute;
+  top: -1%;
+}
